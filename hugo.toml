@@ -1,7 +1,48 @@
 baseURL = 'https://kaseseal.xyz/'
-locale = 'en-us'
+locale = 'zh-CN'
 title = '关于Ekko'
-theme = 'ananke'
+theme = 'PaperMod'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "你好，我是 Ekko"
+    Content = "这里记录技术、思考和日常。"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
