@@ -1,0 +1,4 @@
+baseURL = 'https://kaseseal.xyz/'
+locale = 'en-us'
+title = '关于Ekko'
+theme = 'ananke'
