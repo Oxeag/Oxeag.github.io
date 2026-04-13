@@ -23,6 +23,43 @@
   margin-top: 16px !important;
 } */
 
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+figure figcaption {
+  font-size: 14px;
+  color: var(--secondary);
+  margin-top: 8px;
+}
+
+.image-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+}
+
+.image-row figure {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+.image-row img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.image-row figcaption {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--secondary);
+}
+
 /* 分类页 / 标签页标题别那么夸张 */
 .term-list-title,
 .page-header h1 {
