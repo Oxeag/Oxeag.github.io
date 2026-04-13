@@ -20,6 +20,10 @@ theme = 'PaperMod'
     Title = "你好，我是 Ekko"
     Content = "这里记录技术、思考和日常。"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [[menu.main]]
   identifier = "posts"
   name = "文章"
@@ -31,6 +35,18 @@ theme = 'PaperMod'
   name = "归档"
   url = "/archives/"
   weight = 20
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分类"
+  url = "/categories/"
+  weight = 22
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 25
 
 [[menu.main]]
   identifier = "search"
